@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Signika&display=swap"
+      rel="stylesheet" 
+      />
+      <!-- ลิงค์ไฟล์ css มาใช้งาน  -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    
+    <title>Ex 3 HTML Form </title>
+</head>
+<body 
+
+style="background-color: rgb(248, 207, 213);" >
+
+    <h1 align = 'center'>HTML Form </h1>
+
+    <h1 align = 'center'>แบบฟอร์มลงทะเบียนศิษย์เก่า IT & IS </h1>
+
+     <form  action="https://example.com/" method="post" >
+        <label for="name">ชื่อ-สกุล : </label>
+        <input type="text" name="customer_name" size="" maxlength="">
+        <br> <br>
+
+        <label for="id"> รหัสนักศึกษา : </label>
+        <input type="text" name="id_number" size="" maxlength="">
+        <br> <br>
+        
+        <label for="gender">เพศ : </label>
+        <input type="radio" name="gender" > ชาย
+        <input type="radio" name="gender" > หญิง
+        <input type="radio" name="gender" > อื่นๆ
+        <br><br>
+        
+        <label for="year"> ปีการศึกษาเข้าศึกษา : </label>
+        <input type="text" name="id_year" size="5" maxlength="4">
+        <br> <br>
+
+        <label for="address">ที่อยู่ : </label>
+        <br>
+        <textarea name="address" id="" cols="30" rows="5"></textarea>
+        <br><br>
+
+        <label for="email"> E-mail : </label>
+        <input type="email" name="customer_email" size="" maxlength="">
+        <br><br>
+
+        <label for="Tel"> เบอร์โทร : </label>
+        <input type="text" name="customer_Tel" size="" maxlength="">
+        <br><br>
+        
+        <label for="course name">หลักสูตร : </label>
+        <input type="radio" name="course name" > IT
+        <input type="radio" name="course name" > IS
+        <br><br>
+
+        <label for="occupation"> อาชีพปัจจุบัน : </label>
+        <input type="text" name="occupation" size="" maxlength="">
+        <br><br>
+
+        <label for="LocationWork"> สถานที่ทำงาน : </label>
+        <input type="text" name="Location_W" size="" maxlength="">
+        <br><br>
+
+        <label for="addressWork"> ที่อยู่ที่ทำงาน : </label>
+        <br>
+        <textarea name="address_Work" id="" cols="30" rows="5"></textarea>
+        <br><br>
+
+        <label for="ประเภทงานที่ทำ">ประเภทงานที่ทำ</label>
+        <Select name="job type" >
+            <option value="Web Developer">Web Developer</option>
+            <option value="SA">SA</option>
+            <option value="Graphic Desing">Graphic Desing</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+        </Select>    
+        <br><br>
+
+        <label for="Picture">Upload Your Photo : </label>
+        <input type="file"   name="profile_pic">
+        <br><br>
+
+        <input type="submit" name="Subscribe" value="Subscribe">
+        &nbsp;  &nbsp;  &nbsp;
+        <input type="reset" name="reset" value="Reset">
+        <br><br>
+
+    </form>
+    
+    <a href="../web_programming.html">Back</a>
+
+</body>
+</html>
